@@ -62,7 +62,6 @@ def quiz(questions):
 def main():
     user_score = quiz(questions)
 
-    print("Respostas do usuário: ", user_answers)
     print("Pontuação final: ", user_score)
 
     """ adicione um feedback ao usuário com a sua pontuação final.
@@ -71,9 +70,10 @@ def main():
     if user_score <= 3:
         print("Você é burro.")
     elif user_score == 4:
-        print("OK.")
+        print("Ok.")
     else:
         print("Você é inteligente.")
+        
 
 if __name__ == "__main__":
     main()
