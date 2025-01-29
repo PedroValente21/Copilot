@@ -17,4 +17,20 @@ def even_number(number):
         return True
     else:
         return False
+    
+    def is_prime(number):
+        if not isinstance(number, int):
+            raise TypeError("O valor inserido não é um número inteiro.")
+        if number <= 0:
+            raise ValueError("O valor inserido é negativo ou zero.")
+        if number == 1:
+            return False
+        if number == 2:
+            return True
+        if number % 2 == 0:
+            return False
+        for i in range(3, int(number**0.5) + 1, 2):
+            if number % i == 0:
+                return False
+        return True
 
