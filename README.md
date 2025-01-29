@@ -1,4 +1,3 @@
-# Copilot 
 ![GitHub](https://img.shields.io/badge/GitHubCopilot-000?style=for-the-badge&logo=githubcopilot&logoColor=30A3DC)
 
 Bem-vindo ao repositório de treinamento para o uso do GitHub Copilot! Este repositório foi criado com o objetivo de me familiarizar com as funcionalidades e benefícios do GitHub Copilot.
